@@ -124,5 +124,19 @@ export default [
       "section": "S101",
       "lastActivity": "1852-11-27",
       "totalActivity": "21:32:43"
+    },
+    {
+      "_id": "777",
+      "username": "ev",
+      "password": "123",
+      "firstName": "Evelyn",
+      "lastName": "Xiao",
+      "email": "ev@xiao.com",
+      "dob": "2003-09-21",
+      "role": "ADMIN",
+      "loginId": "002143650S",
+      "section": "S101",
+      "lastActivity": "1852-11-27",
+      "totalActivity": "21:32:43"
     }
   ]
