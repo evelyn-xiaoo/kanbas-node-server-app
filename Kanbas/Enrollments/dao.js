@@ -13,3 +13,8 @@ export function enrollUserInCourse(user, course) {
 export function unenrollUserFromCourse(user, course) {
  return model.deleteOne({ user, course });
 }
+
+export function createEnrollment(enrollment) {
+    delete enrollment._id
+    return model.create(enrollment);
+}

@@ -114,7 +114,7 @@ export default function UserRoutes(app) {
             }
             userId = currentUser._id;
         }
-        const enrollments = await enrollmentsDao.findEnrollmentsForUser(userId);
+        const enrollments = await enrollmentsDao.findCoursesForUser(userId);
         res.json(enrollments);
     };
 
